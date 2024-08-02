@@ -1,0 +1,33 @@
+#box{
+    background-color: blue;
+    
+
+}
+
+h1,h2,h3{
+    color: red;
+    text-align: center;
+    
+}
+
+#button{
+    background-color: green;
+
+}
+
+.lorem-text{
+    text-align: left;
+    font-weight: lighter;
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+
+#hello{
+    text-align: left;
+    color: black;
+    display: none;
+    font-weight: lighter;
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+   
+}

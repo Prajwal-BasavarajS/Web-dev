@@ -1,0 +1,40 @@
+h1{
+    text-align: center;
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    
+   
+}
+
+#conatiner{
+    height: 800px;
+    width: 800px;
+    background-color: aqua;
+    border: 2px solid black;
+    /* border: 2px soild black; */
+    align-items: center;
+
+
+}
+
+#box1{
+    background-color: red;    border: 2px soild black;
+
+}
+
+#box2{
+    background-color: blue;    
+}
+#box3{
+    background-color: rgb(46, 131, 100);
+}
+#box4{
+    background-color: rgb(131, 173, 224);
+}
+#box5{
+    background-color: rgb(134, 53, 102);
+}

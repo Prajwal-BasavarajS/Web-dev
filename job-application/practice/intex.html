@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="white-box">
+            <h1>Job Application<span> (Web) </span></h1>
+        
+        <div class="form-container">
+            <div class="form-control">
+                <label for="firstname"> First Name:</label>
+                <input type="text" id="firstname" name="firstname" required>
+            </div>
+            <div class="form-control">
+                <label for="lastname"> Last Name:</label>
+                <input type="text" id="lastname" name="lastname">
+            </div>
+            <div class="form-control">
+                <label for="email"> Email:</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div class="form-control">
+                <label for="jobrole">Job Role</label>
+                <select name="jobrole" id="jobrole">
+                    <option value=" "> </option>
+                    <option value="Frontend dev"> FrontEnd Developer</option>
+                    <option value="backend dev">Backend</option>
+                    <option value="devops">Devops</option>
+                    <option value="Python">Python</option>
+                </select>
+            </div>
+            <div class="textarea-control">
+                <label for="Address">Address</label>
+                <textarea name="Address" id="address" rows="2" cols="30"></textarea>
+            </div>
+            <div class="form-control">
+                <label for="city">City</label>
+                <input type="text" name="city" id="city">
+            </div>
+            <div class="form-control">
+                <label for="Pincode">Pincode</label>
+                <input type="number" name="Pincode" id="Pincode">
+            </div>
+            <div class="form-control">
+                <label for="date">Date</label>
+                <input type="date" name="date" id="date">
+            </div>
+            <div class="form-control">
+                <label for="upload">Upload File</label>
+                <input type="file" name="upload" id="upload">
+            </div>
+            <div class="button-container">
+                <button type="submit">Submit</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+</body>
+</html>
