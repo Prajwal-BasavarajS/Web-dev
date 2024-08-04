@@ -120,7 +120,7 @@ font-size: 96px;
 
 .card{
     max-width: 320px;
-    height: 400px;
+    height: 430px;
     border-radius: 10px;
     transition: 0.3s ease-in;
     box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.2);
@@ -162,16 +162,18 @@ p{
 .two-divided{
     /* max-height: 400px; */
     display:flex;
+    /* justify-content: space-evenly; */
     /* flex-direction: column; */
     /* grid-template-columns: repeat(auto-fit,(400px,1fr));     */
 }
 
 .green-div
 {
-    background-color: green;
+    background-color: rgb(0, 128, 0);
     color: white;
-    min-width: 600px;
+    /* min-width: 600px; */
     padding: 40px;
+    min-height: 300px;
 
 }
 
@@ -179,6 +181,7 @@ p{
     background-color: brown;
     color: white;
     /* min-width: 600px; */
+    min-height: 300px;
     padding: 40px;
 }
 .side h2{
@@ -221,6 +224,33 @@ footer{
 
 
 
+
+
+@media(max-width:786px){
+    .hero-section{
+        min-height: 50vh;
+    }
+    .text-container{
+        padding: 10px 0;
+        text-align: center;
+    }
+    .text-container h2{
+        font-size: 32px;
+    }
+    .black_box h2{
+        font-size: 24px;
+    }
+    .black_box h2 span{
+        font-weight: 400;
+        font-size: 32px;
+    }
+    .two-divided{
+        flex-direction: column;
+    }
+    .side h2{
+        font-size: 32px;
+    }
+}
 
 
 
